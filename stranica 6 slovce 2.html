@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novi naslov stranice</title>
+    <style>
+        body {
+            background-color: black; /* Postavlja pozadinu stranice na crnu */
+            margin: 0; /* Uklanja podrazumevani margine */
+            padding: 0; /* Uklanja podrazumevani padding */
+            color: white; /* Postavlja boju teksta na belu */
+            font-family: Arial, sans-serif; /* Postavlja font teksta */
+            display: flex; /* Koristi fleksibilni prikaz */
+            justify-content: center; /* Centrira sadržaj horizontalno */
+            align-items: center; /* Centrira sadržaj vertikalno */
+            height: 100vh; /* Postavlja visinu na visinu prozora pregledača */
+        }
+
+        .container {
+            max-width: 100%; /* Postavlja maksimalnu širinu kontejnera */
+            padding: 20px; /* Dodaje unutrašnji razmak kontejneru */
+            box-sizing: border-box; /* Uključuje padding i border u širinu i visinu elementa */
+            overflow-x: auto; /* Omogućava horizontalno skrolovanje ako je sadržaj duži od ekrana */
+            white-space: nowrap; /* Sprječava prelazak teksta u novi red */
+            display: flex; /* Koristi fleksibilni prikaz */
+            justify-content: flex-start; /* Poravnava sadržaj levo */
+            align-items: center; /* Centrira sadržaj vertikalno */
+        }
+
+        img {
+            max-width: 100%; /* Postavlja maksimalnu širinu slike na širinu kontejnera */
+            height: auto; /* Održava odnos širine i visine slike */
+            margin-right: 20px; /* Dodaje razmak između slika */
+            object-fit: contain; /* Prikazuje celu sliku unutar granica kontejnera */
+            vertical-align: middle; /* Poravnavanje slika */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Slike se dodaju ovde -->
+        <img src="ffz-01.png" alt="Slika 1">
+        <img src="water dog-01.png" alt="Slika 2">
+        <img src="CVECE-01.png" alt="Slika 3">
+        <img src="00-01.png" alt="Slika 4">
+        <img src="5555-01.png" alt="Slika 5">
+        <!-- Dodajte još slika po potrebi -->
+    </div>
+</body>
+</html>

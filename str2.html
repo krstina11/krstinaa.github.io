@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crna stranica sa slikama</title>
+    <style>
+        body {
+            background-color: black; /* Postavlja pozadinu stranice na crnu */
+            margin: 0; /* Uklanja podrazumevani margine */
+            padding: 0; /* Uklanja podrazumevani padding */
+            display: flex; /* Koristi fleksibilni prikaz */
+            justify-content: center; /* Centrira sadržaj horizontalno */
+            align-items: center; /* Centrira sadržaj vertikalno */
+            height: 100vh; /* Postavlja visinu na visinu prozora 
+    pregledača */  
+        }
+        }
+        .image-container {
+            display: flex; /* Koristi fleksibilni prikaz */
+            justify-content: center; /* Centrira sadržaj horizontalno */
+            align-items: center; /* Centrira sadržaj vertikalno */
+        }
+        .image-container img {
+            max-width: 300px; /* Postavlja maksimalnu širinu slike */
+            max-height: 300px; /* Postavlja maksimalnu visinu slike */
+            margin: 0 10px; /* Dodaje margine između slika */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="slovce.png" alt="Slika 1" onclick="window.location.href='stranica 5 slovce.html'">
+        <img src="slovce2.png" alt="Slika 2"onclick="window.location.href='stranica 6 slovce 2.html'">
+        <img src="slovce3.png" alt="Slika 3"onclick="window.location.href='stranica 7 slovce3.html'">
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image on Black Background</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #image-container {
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto; /* Dodato za omogućavanje skrolovanja na dole */
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <!-- Ovde možete dodati svoj PNG fajl -->
+        <img src="cvcv-01 2.png" alt="Your Image">
+    </div>
+</body>
+</html>
